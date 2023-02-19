@@ -1,7 +1,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Neucha&family=Nixie+One&family=Open+Sans&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Gwendolyn:wght@400;700&family=Handlee&family=Neucha&family=Nixie+One&family=Open+Sans&family=Pacifico&family=Parisienne&display=swap');
 
 html {font-size: 100%;} /*16px*/
 
@@ -12,7 +12,7 @@ body {
   font-family: 'Nixie One', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color:  rgba(10, 2, 21, 0.578);;
+  color:  rgba(10, 2, 21, 0.578);
 
 }
 
@@ -61,13 +61,18 @@ h1, h2, h3, h4, h5 {
   
 /*nav*/
 
+nav{
+    position:sticky;
+    top:0px;
+}
+
 .contact{
     list-style: none;
     
 }
 
 .listContact{
-    
+    background-color: white;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -85,7 +90,7 @@ h1, h2, h3, h4, h5 {
     
 }
 
-.github, .instagram, .email{
+.github, .instagram, .email, .linkedin, .darkMode, .darkModeToggle{
     font-size:25px; 
     text-align: center;
     color:  rgba(10, 2, 21, 0.578);;
@@ -104,7 +109,13 @@ h1, h2, h3, h4, h5 {
     
         color: #b3adbb ;
     }
+.linkedin:hover{
+    color: #b3adbb;
+}
 
+.darkMode:hover{
+    color: #b3adbb;
+}
 
 
 
@@ -114,13 +125,14 @@ h1, h2, h3, h4, h5 {
 
 img{ 
     order: 2;
-    border-image: linear-gradient(#ffead1, #fffffe) 2/ 2px ;
-    border-image-repeat: round;
-    border-radius: 50%;
+   /* border-image: linear-gradient(#ffead1, #fffffe) 2/ 2px ;
+    border-image-repeat: round;*/
+    border-radius: 30px;
     width: 15% ;
     height: 15%;
     align-self:center;  
     margin-right: 10%;
+    border: 2px solid orange;
     
 }
 
@@ -133,8 +145,12 @@ img{
     
 }
 
-.name{
+.nameHeader{
     text-align: center;
+}
+
+.name{
+    font-family: "Handlee";
 }
 .role{
     text-align: center;
@@ -211,7 +227,7 @@ img{
 .aboutMeContainer{
     
     
-    background-color:#F5F5F5;
+    background:#F5F5F5;
     border-radius: 30px;
     
 }
@@ -239,8 +255,14 @@ img{
 
 .myProjectsContainer{
 display: flex;
-}
 
+}
+.myProjectsGallery{
+    flex-direction: row;
+    justify-content: space-around;
+   margin: auto;
+   flex-wrap: wrap;
+}
 /*responsiveness*/
 
 @media (min-width:654px) and (max-width: 1200px){
@@ -292,10 +314,11 @@ display: flex;
     img{
         
         width:25%;
+        margin-bottom: 5%;
         
     }
     .paragraph1{
-        margin: 8% 20% ;
+        margin: 1% 20% ;
         font-size: 1.3rem;
         width: 60%;
         margin-bottom:5%
@@ -303,11 +326,11 @@ display: flex;
         
     }
     .aboutMe{
-        margin: 1% auto 
+        margin: 3% auto 
     }
 
     .paragraph2{
-        margin-top:6%;
+        margin-top:2%;
         font-size: 1.3rem;
         width: 70%;
         margin-bottom:5%;
