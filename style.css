@@ -1,0 +1,358 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Gloria+Hallelujah&family=Neucha&family=Nixie+One&family=Open+Sans&family=Pacifico&display=swap');
+
+html {font-size: 100%;} /*16px*/
+
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+  background: white;
+  font-family: 'Nixie One', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color:  rgba(10, 2, 21, 0.578);;
+
+}
+
+p {margin-bottom: 1rem;
+margin-left: 1rem;
+margin-right: 1rem;
+font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 2rem 0 1.38rem;
+    font-family: 'Nixie One', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+  
+  h1 {
+    margin-top: 0;
+    font-size: 3.8rem;
+    display: inline-block;
+    margin: auto;
+    text-shadow:  rgb(144, 138, 153,0.25) 48px 11px 19px;
+    
+    
+
+  }
+  
+  h2 {font-size: 3.157rem;
+    color: #fda901;
+    text-shadow: rgba(250, 214, 152, 0.47) 30px 11px 19px;
+    font-family: "Abril Fatface";
+}
+  
+  h3 {font-size: 2.369rem;
+    color: #fda901;
+    text-shadow: rgba(250, 214, 152, 0.47) 30px 11px 19px;
+    font-family: "Abril Fatface";
+}
+  
+  h4 {font-size: 1.777rem;}
+  
+  h5 {font-size: 1.333rem;}
+  
+  small, .text_small {font-size: 0.75rem;}
+
+  
+/*nav*/
+
+.contact{
+    list-style: none;
+    
+}
+
+.listContact{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap: 10%;
+    list-style: none;
+    margin-top: 2%;
+    -webkit-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+    -moz-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+    box-shadow: 20px 17px 19px 0px  rgb(144, 138, 153,0.35);
+    border-radius: 30px;
+    
+
+    
+    
+    
+}
+
+.github, .instagram, .email{
+    font-size:25px; 
+    text-align: center;
+    color:  rgba(10, 2, 21, 0.578);;
+    
+}
+
+.github:hover{
+    color: #b3adbb ;
+}
+
+.instagram:hover{
+   
+        color: #b3adbb ;
+    }
+.email:hover{
+    
+        color: #b3adbb ;
+    }
+
+
+
+
+
+
+/*header*/
+
+img{ 
+    order: 2;
+    border-image: linear-gradient(#ffead1, #fffffe) 2/ 2px ;
+    border-image-repeat: round;
+    border-radius: 50%;
+    width: 15% ;
+    height: 15%;
+    align-self:center;  
+    margin-right: 10%;
+    
+}
+
+
+
+.headerContainer, .imgContainer{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.name{
+    text-align: center;
+}
+.role{
+    text-align: center;
+}
+
+.imgContainer{
+    border: 20px, solid, black ;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 5% ;
+    
+
+   
+}
+
+
+
+.frontandback {
+    color: #fda901;
+    font-weight:900;
+    font-size: 2rem;
+    font-family: "Abril Fatface";
+    text-shadow:rgba(250, 214, 152, 0.25) 30px 11px 19px;
+    line-height:normal;
+}
+
+.paragraph1{
+    
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    font-weight: 400 ;
+    font-family: "Chivo";
+    width: 30%;
+    margin-left: 25%;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+/* About me section */
+    section{
+        display: flex;
+        flex-direction: column;
+        gap:5%
+    }
+.aboutMe{
+    margin: 10% auto;
+    margin-bottom: 2%
+   
+}
+
+.paragraph2 {
+
+    text-align: center;
+    font-weight: 400 ;
+    font-family: "Chivo";
+    width: 60%;
+    margin-left: 25%;
+    text-align: justify;
+  text-justify: inter-word;
+  margin-top: 0;
+  
+   
+}
+
+.extrainfo{
+    font-family:'Gloria Hallelujah';
+    font-size: smaller;
+    color:#d3a12c ;
+}
+
+.aboutMeContainer{
+    
+    
+    background-color:#F5F5F5;
+    border-radius: 30px;
+    
+}
+
+.getInTouch{
+    text-decoration: none;
+    color: inherit;
+}
+
+.getInTouch:hover{
+    color: #b3adbb;
+}
+
+.getInTouchIcon{
+    margin-right: 1%;
+    text-align: center;
+    font-size:25px;
+}
+/*My Projects*/
+
+.myLatestProjects{
+    margin: 3% auto;
+    margin-bottom: 2%
+}
+
+.myProjectsContainer{
+display: flex;
+}
+
+/*responsiveness*/
+
+@media (min-width:654px) and (max-width: 1200px){
+    body{
+        margin:auto; 
+    }
+    h1{
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .imgContainer{ 
+        flex-direction: column-reverse;
+        align-content: space-between;
+        justify-content: center;
+        margin-top: 5%;
+        
+    }
+    img{
+        margin: auto; 
+        width:45%
+        
+    }
+   
+    .paragraph1, .paragraph2{
+        margin: 8% auto;
+        font-size: 1.3rem;
+        width: 60%;
+        margin-bottom:5%
+        
+    }
+    .aboutMe{
+        margin: 3% auto 
+    }
+
+    .paragraph2{
+        margin-top:3%
+    }
+
+}
+ 
+     
+@media (min-width:1200px) and (max-width:3000px){
+    .imgContainer{
+        margin-top: 6%;
+        gap:0%
+       
+    }
+
+    img{
+        
+        width:25%;
+        
+    }
+    .paragraph1{
+        margin: 8% 20% ;
+        font-size: 1.3rem;
+        width: 60%;
+        margin-bottom:5%
+        
+        
+    }
+    .aboutMe{
+        margin: 1% auto 
+    }
+
+    .paragraph2{
+        margin-top:6%;
+        font-size: 1.3rem;
+        width: 70%;
+        margin-bottom:5%;
+        margin-left:20%;
+       
+    }
+}
+    
+
+@media screen and (max-width: 653px){
+    body{
+        margin:auto; 
+    }
+    h1{
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .imgContainer{ 
+        flex-direction: column-reverse;
+        align-content: space-between;
+        justify-content: center;
+        margin-top: 5%;
+        
+    }
+    img{
+        margin: auto; 
+        width:45%
+        
+    }
+    
+    .paragraph1, .paragraph2{
+        margin: 8% auto;
+        font-size: 1.3rem;
+        width: 60%;
+        margin-bottom:5%
+        
+    }
+    .aboutMe{
+        margin: 1% auto 
+    }
+
+    .paragraph2{
+        margin-top:5%
+    }
+    paragraph{
+        font-size: 13px; 
+}
+}
