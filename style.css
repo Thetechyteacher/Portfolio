@@ -496,8 +496,8 @@ article {
     }
   }
   
-  @container card (min-width: 380px) {
-    .article-wrapper {
+  /*@screen card (min-width: 380px) {
+    .articlewrapper {
       display: grid;
       grid-template-columns: 100px 1fr;
       gap: 16px;
@@ -515,7 +515,7 @@ article {
       aspect-ratio: 1;
       object-fit: cover;
     }
-  }
+  } */
   
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0); 

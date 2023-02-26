@@ -3,6 +3,8 @@
 
 let darkModeToggle = document.querySelector(".darkModeToggle");
 let aboutMeBackground= document.querySelector(".aboutMeContainer");
+//let articleWrapper= document.querySelectorAll(".articlewrapper");
+//let articles= document.querySelector(".articles");
 
 darkModeToggle.addEventListener ("click", darkMode)
 
@@ -34,12 +36,17 @@ window.addEventListener ("load", function getLocalstorage(){
 
 
 function darkMode () {
-    if (darkModeToggle.value == "dark"){
-         document.body.style.backgroundColor= "black"
-         aboutMeBackground.style. backgroundColor= "black"
-         document.body.style.color="white"
-         darkModeToggle.value="light"
-         localStorage.setItem("darkmode", true)
+   
+    if (darkModeToggle.value == "dark"){ 
+        
+         document.body.style.backgroundColor= "black";
+         aboutMeBackground.style.backgroundColor= "black";
+         //articles.style.backgroundColor="black";
+         //articleWrapper.style.backgroundColor="black";
+         
+         document.body.style.color="white";
+         darkModeToggle.value="light";
+         localStorage.setItem("darkmode", true);
      }
      else{
         document.body.style.backgroundColor= "white"
