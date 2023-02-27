@@ -42,13 +42,13 @@ h1, h2, h3, h4, h5 {
   
   h2 {font-size: 3.157rem;
     color: #fda901;
-    text-shadow: rgba(250, 214, 152, 0.47) 30px 11px 19px;
+    text-shadow:rgba(250, 214, 152, 0.25) 10px 5px 12px;
     font-family: "Abril Fatface";
 }
   
   h3 {font-size: 2.369rem;
     color: #fda901;
-    text-shadow: rgba(250, 214, 152, 0.47) 30px 11px 19px;
+    text-shadow:rgba(250, 214, 152, 0.25) 10px 5px 12px;
     font-family: "Abril Fatface";
 }
   
@@ -174,7 +174,7 @@ img{
     font-weight:900;
     font-size: 2rem;
     font-family: "Abril Fatface";
-    text-shadow:rgba(250, 214, 152, 0.25) 30px 11px 19px;
+    text-shadow:rgba(250, 214, 152, 0.25) 10px 5px 12px;
     line-height:normal;
 }
 
