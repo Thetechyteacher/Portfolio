@@ -93,7 +93,7 @@ nav{
 .github, .instagram, .email, .linkedin, .darkMode, .darkModeToggle{
     font-size:25px; 
     text-align: center;
-    color:  rgba(10, 2, 21, 0.578);;
+    color:  rgba(10, 2, 21, 0.578);
     
 }
 
@@ -125,11 +125,10 @@ nav{
 
 img{ 
     order: 2;
-   /* border-image: linear-gradient(#ffead1, #fffffe) 2/ 2px ;
-    border-image-repeat: round;*/
+   
     border-radius: 30px;
-    width: 15% ;
-    height: 15%;
+    width: 25% ;
+    height: 25%;
     align-self:center;  
     margin-right: 10%;
     border: 2px solid orange;
@@ -174,7 +173,7 @@ img{
     font-weight:900;
     font-size: 2rem;
     font-family: "Abril Fatface";
-    text-shadow:rgba(250, 214, 152, 0.25) 10px 5px 12px;
+   
     line-height:normal;
 }
 
@@ -266,7 +265,21 @@ img{
     border: none;
 
 }
+/*Footer*/
 
+footer{
+  border-radius: 30px;
+  -webkit-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+    -moz-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+    box-shadow: 20px 30px 19px 0px  rgb(144, 138, 153,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gloria Hallelujah';
+    font-size: smaller;
+    color:#d3a12c ;
+     
+}
 
 article {
     --img-scale: 1.001;
@@ -282,7 +295,7 @@ article {
     overflow: hidden;
   }
   
-  article a::after {
+ article a::after {
     position: absolute;
     inset-block: 0;
     inset-inline: 0;
@@ -356,7 +369,7 @@ article {
   *,
   *::before,
   *::after {
-    box-sizing: border-box;
+   box-sizing: border-box;
   }
   
  
@@ -390,7 +403,7 @@ article {
     }
     img{
         margin: auto; 
-        width:45%
+        width:35%
         
     }
    
@@ -421,7 +434,7 @@ article {
 
     img{
         
-        width:25%;
+        width:15%;
         margin-bottom: 5%;
         
     }
@@ -465,7 +478,7 @@ article {
     }
     img{
         margin: auto; 
-        width:45%
+        width:35%
         
     }
     
@@ -496,26 +509,7 @@ article {
     }
   }
   
-  /*@screen card (min-width: 380px) {
-    .articlewrapper {
-      display: grid;
-      grid-template-columns: 100px 1fr;
-      gap: 16px;
-    }
-    .article-body {
-      padding-left: 0;
-    }
-    figure {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-    figure img {
-      height: 100%;
-      aspect-ratio: 1;
-      object-fit: cover;
-    }
-  } */
+ 
   
   .sr-only:not(:focus):not(:active) {
     clip: rect(0 0 0 0); 
