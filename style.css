@@ -247,7 +247,9 @@ img{
 }
 /*My Projects*/
 
-
+.myProjects{
+    text-align: center;
+}
 .container{
     display: flex;
     flex-direction: row;
