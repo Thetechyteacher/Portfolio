@@ -133,6 +133,7 @@ img{
     margin-right: 10%;
     border: 2px solid orange;
     
+    
 }
 
 
@@ -265,21 +266,7 @@ img{
     border: none;
 
 }
-/*Footer*/
 
-footer{
-  border-radius: 30px;
-  -webkit-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
-    -moz-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
-    box-shadow: 20px 30px 19px 0px  rgb(144, 138, 153,0.35);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:'Gloria Hallelujah';
-    font-size: smaller;
-    color:#d3a12c ;
-     
-}
 
 article {
     --img-scale: 1.001;
@@ -383,6 +370,21 @@ article {
     gap: 24px;
   }
   
+/*Footer*/
+
+footer{
+    border-radius: 30px;
+    -webkit-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+      -moz-box-shadow: 20px 17px 19px 0px rgb(144, 138, 153,0.35);
+      box-shadow: 20px 30px 19px 0px  rgb(144, 138, 153,0.35);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family:'Gloria Hallelujah';
+      font-size: smaller;
+      color:#d3a12c ;
+       
+  }
 
 /*responsiveness*/
 
@@ -478,7 +480,9 @@ article {
     }
     img{
         margin: auto; 
-        width:35%
+        width:40%;
+        
+        
         
     }
     
