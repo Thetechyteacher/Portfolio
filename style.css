@@ -508,9 +508,9 @@ footer{
     article {
       display: card/inline-size;
     }
-    .article-body p {
+    /*.article-body p {
       display: none;
-    }
+    }*/
   }
   
  
