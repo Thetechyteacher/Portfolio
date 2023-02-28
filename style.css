@@ -508,9 +508,10 @@ footer{
     article {
       display: card/inline-size;
     }
-    /*.article-body p {
-      display: none;
-    }*/
+    .article-body p {
+      /*display: none;*/
+      font-size: 1.3rem ;
+    }
   }
   
  
