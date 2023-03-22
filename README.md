@@ -2,15 +2,14 @@ My Portfolio
 
 Have a look at my protfolio and some of the projects I have created. 
 
-Link to project: 
-
-How It's Made:
+Link to project: https://monicaescobar.netlify.app
 
 Tech used: HTML, CSS and JavaScript.
 
+How it's made:
+
 Researched visualy pleasing UX and UI designs for this project to optimize the visual side of the website, creating a clean and crisp look which is user-friendly and easy to follow. The website is fully accesible as well, having a dark mode available for those who want one. 
 Dark mode preference gets saved on the user local storage, saving the user from having to click on the dark mode button when accessing again. 
-
 
 Lessons Learned:
 
@@ -21,4 +20,5 @@ Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
 Dales Park Library Management System: https://dalesparklibrary.netlify.app
+Negroni Cocktail Bar https://thetechyteacher.github.io/CocktailBar_ReactApp/
 
