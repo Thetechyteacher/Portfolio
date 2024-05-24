@@ -269,6 +269,16 @@ img{
 
 }
 
+.certificates{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   flex-wrap: wrap;
+   margin: 5% auto;
+    margin-bottom: 2%
+}
+
 
 article {
     --img-scale: 1.001;
@@ -361,6 +371,14 @@ article {
    box-sizing: border-box;
   }
   
+  .badges {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
  
   
   .articles {
