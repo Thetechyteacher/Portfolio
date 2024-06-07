@@ -108,7 +108,6 @@
       </div>
     </article>
     <article >
-  
       <div class="articlewrapper">
         <figure>
           <img src="./Untitled Diagram.drawio.png" alt="" class="ProjectImg"/>
@@ -139,6 +138,26 @@
     </article>
   </section>
 </div>
+<script src="https://d2qpkilgew073w.cloudfront.net/lex-web-ui-loader.min.js"></script>
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://d2qpkilgew073w.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  var chatbotUiConfig = {
+          /* Example of setting session attributes on parent page
+          lex: {
+            sessionAttributes: {
+              userAgent: navigator.userAgent,
+              QNAClientFilter: ''
+            }
+          }
+          */
+        };
+  loader.load(chatbotUiConfig)
+    .catch(function (error) { console.error(error); });
+</script>
 <footer>
    <p> Web developed and deployed by Monica Escobar ❤️ </p>
 </footer>
